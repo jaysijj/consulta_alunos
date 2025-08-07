@@ -1,0 +1,25 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+venv/
+env/
+.venv/
+
+# Arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.spec
+*.cfg
+
+# Configurações do VS Code (se usar)
+.vscode/
+
+# Outros
+*.egg-info/
+*.swp
+build/
+dist/
+Include/
+Lib/
+Scripts/
