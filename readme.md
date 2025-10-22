@@ -39,3 +39,10 @@ Para gerar um arquivo executável:
 ```bash
 pyinstaller --onefile --windowed --icon=folder.ico --add-data ".env;." index.py
 ```
+
+## Modelo do .env
+```bash
+SI3_USER=seu_usuario_aqui
+SI3_PASSWORD=sua_senha_aqui
+SI3_SITE=https://url_do_sistema_aqui
+```
