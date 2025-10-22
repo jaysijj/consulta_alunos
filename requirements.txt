@@ -1,0 +1,4 @@
+selenium==4.37.0
+ttkbootstrap==1.16.0
+webdriver-manager==4.0.2
+python-dotenv==1.1.1

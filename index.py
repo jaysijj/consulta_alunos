@@ -357,7 +357,7 @@ class SeleniumApp:
             
             # Executar busca
             self.log("Executando busca...")
-            buscar = wait.until(EC.element_to_be_clickable((By.NAME, 'busca:j_id_jsp_1556043697_440')))
+            buscar = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="busca"]/table/tfoot/tr/td/input[1]')))
             buscar.click()
 
             # Verificar se há mensagem de erro

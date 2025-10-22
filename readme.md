@@ -20,11 +20,12 @@ Esta aplicação automatiza a consulta de alunos em um site, permitindo a busca 
 - **Log detalhado** das operações
 
 ## 🛠️ Tecnologias Utilizadas
-- Python 3.x
-- Selenium WebDriver
-- Tkinter (com TtkBootstrap para interface moderna)
-- WebDriver Manager (para gerenciamento automático de drivers)
-- Threading (para execução assíncrona)
+- Python 3.x;
+- Selenium WebDriver;
+- Tkinter (com TtkBootstrap para interface moderna);
+- WebDriver Manager (para gerenciamento automático de drivers);
+- Threading (para execução assíncrona);
+- Pyinstaller (gera arquivo executável).
 
 ## ⚙️ Configuração
 
@@ -33,3 +34,8 @@ Esta aplicação automatiza a consulta de alunos em um site, permitindo a busca 
 - Google Chrome instalado
 - Conexão com internet
 
+## Build do Executável
+Para gerar um arquivo executável:
+```bash
+pyinstaller --onefile --windowed --icon=folder.ico --add-data ".env;." index.py
+```
